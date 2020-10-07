@@ -43,7 +43,7 @@ public class pickup2 : MonoBehaviour
 
             SpriteRenderer mySpriteRenderer = GetComponent<SpriteRenderer>();
             mySpriteRenderer.sortingLayerName = "picked up items";
-            mySpriteRenderer.sortingOrder = 3;
+            mySpriteRenderer.sortingOrder = 4;
         }
 
         if (inTrigger == true && Input.GetKeyDown(KeyCode.Q))

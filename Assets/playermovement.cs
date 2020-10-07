@@ -7,30 +7,34 @@ public class playermovement : MonoBehaviour
     public Rigidbody2D thisRigidbody2D;
     public float speed = 7f;
 
+    //public Rigidbody2D testing;
+
     Vector2 moveDirection;
 
 
     public GameObject mazeEntrance;
     public float teleportimer = 5;
     public bool timeIsRunning = false;
+    public bool teleported = false;
+
 
 
     private void Start()
     {
         //timer is not counting down
         timeIsRunning = true;
-    
+
+       
+
     }
 
     void Update()
     {
-        //move code
-        moveDirection.x = Input.GetAxisRaw("Horizontal");
-        moveDirection.y = Input.GetAxisRaw("Vertical");
+       
 
         
         //if player finished first level 
-        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 8)
+        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 1)
         {
             //timer goes off
             //new music maybe?
@@ -49,12 +53,18 @@ public class playermovement : MonoBehaviour
             }
 
             //transport player to second level
-            if (teleportimer == 0)
+            if (teleportimer == 0 && teleported == false)
             {
 
-                thisRigidbody2D.transform.position = mazeEntrance.transform.position;
+                thisRigidbody2D.position = new Vector3(-111.8f, -50.1f, 0f);
+
+                thisRigidbody2D.position = mazeEntrance.transform.position;
+                teleported = true;
+                
+              
+
             }
-    
+
         }
      
             
@@ -63,6 +73,10 @@ public class playermovement : MonoBehaviour
     //move code
     private void FixedUpdate()
     {
+        //move code
+        moveDirection.x = Input.GetAxisRaw("Horizontal");
+        moveDirection.y = Input.GetAxisRaw("Vertical");
+
         thisRigidbody2D.MovePosition(thisRigidbody2D.position + moveDirection * speed * Time.deltaTime);
     }
 
