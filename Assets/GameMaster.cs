@@ -10,6 +10,17 @@ public class GameMaster : MonoBehaviour
 
     public Text pointsText;
 
+    AudioSource softLullaby;
+    AudioSource babyCoos;
+    AudioSource distortedLullaby;
+
+    private void Start()
+    {
+        softLullaby = GetComponent<AudioSource>();
+        babyCoos = GetComponent<AudioSource>();
+        distortedLullaby = GetComponent<AudioSource>();
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -33,5 +44,16 @@ public class GameMaster : MonoBehaviour
 
             Debug.Log("in trigger");
         }
+    }
+
+    private void Update()
+    {
+        if(points == 1)
+            {
+                softLullaby.Stop();
+                babyCoos.Stop();
+                distortedLullaby.Play();
+             }
+        
     }
 }

@@ -9,7 +9,12 @@ public class pickup2 : MonoBehaviour
 
     public bool inTrigger;
 
-  
+    AudioSource pickUpStuffy;
+
+    private void Start()
+    {
+        pickUpStuffy = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerStay2D(Collider2D ghost)
     {
@@ -44,6 +49,8 @@ public class pickup2 : MonoBehaviour
             SpriteRenderer mySpriteRenderer = GetComponent<SpriteRenderer>();
             mySpriteRenderer.sortingLayerName = "picked up items";
             mySpriteRenderer.sortingOrder = 4;
+
+            pickUpStuffy.Play();
         }
 
         if (inTrigger == true && Input.GetKeyDown(KeyCode.Q))

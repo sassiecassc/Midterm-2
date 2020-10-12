@@ -7,7 +7,7 @@ public class playermovement : MonoBehaviour
     public Rigidbody2D thisRigidbody2D;
     public float speed = 7f;
 
-    //public Rigidbody2D testing;
+    
 
     Vector2 moveDirection;
 
@@ -17,7 +17,7 @@ public class playermovement : MonoBehaviour
     public bool timeIsRunning = false;
     public bool teleported = false;
 
-
+    
 
     private void Start()
     {
@@ -60,6 +60,7 @@ public class playermovement : MonoBehaviour
 
                 thisRigidbody2D.position = mazeEntrance.transform.position;
                 teleported = true;
+
                 
               
 
