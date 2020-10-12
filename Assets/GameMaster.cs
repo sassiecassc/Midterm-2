@@ -10,15 +10,20 @@ public class GameMaster : MonoBehaviour
 
     public Text pointsText;
 
-    AudioSource softLullaby;
-    AudioSource babyCoos;
-    AudioSource distortedLullaby;
+    public AudioSource softLullaby;
+    public AudioSource babyCoos;
+    public AudioSource distortedLullaby;
 
     private void Start()
     {
+        /*
         softLullaby = GetComponent<AudioSource>();
         babyCoos = GetComponent<AudioSource>();
         distortedLullaby = GetComponent<AudioSource>();
+        */
+
+        softLullaby.Play();
+        babyCoos.Play();
     }
 
 
@@ -52,8 +57,15 @@ public class GameMaster : MonoBehaviour
             {
                 softLullaby.Stop();
                 babyCoos.Stop();
+
+            if(distortedLullaby.isPlaying == false)
+            {
+
                 distortedLullaby.Play();
-             }
+            }
+
+            }
+        
         
     }
 }

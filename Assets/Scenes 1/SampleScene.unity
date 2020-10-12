@@ -716,6 +716,7 @@ GameObject:
   - component: {fileID: 30871130}
   - component: {fileID: 30871129}
   - component: {fileID: 30871128}
+  - component: {fileID: 30871132}
   m_Layer: 0
   m_Name: thought placeholder (4)
   m_TagString: Untagged
@@ -752,9 +753,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -825,6 +826,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30871132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &32661403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,6 +2890,7 @@ GameObject:
   - component: {fileID: 170192841}
   - component: {fileID: 170192840}
   - component: {fileID: 170192839}
+  - component: {fileID: 170192843}
   m_Layer: 0
   m_Name: thought placeholder (1)
   m_TagString: Untagged
@@ -2913,9 +2927,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -2986,6 +3000,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &170192843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170192838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &173178344
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,7 +4560,7 @@ GameObject:
   - component: {fileID: 305874560}
   - component: {fileID: 305874562}
   - component: {fileID: 305874558}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: -player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4861,6 +4887,7 @@ GameObject:
   - component: {fileID: 336529894}
   - component: {fileID: 336529893}
   - component: {fileID: 336529892}
+  - component: {fileID: 336529896}
   m_Layer: 0
   m_Name: thought placeholder (3)
   m_TagString: Untagged
@@ -4897,9 +4924,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4970,6 +4997,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336529896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336529891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &340066623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5753,6 +5792,7 @@ GameObject:
   - component: {fileID: 396488364}
   - component: {fileID: 396488363}
   - component: {fileID: 396488362}
+  - component: {fileID: 396488366}
   m_Layer: 0
   m_Name: thought placeholder (8)
   m_TagString: Untagged
@@ -5789,9 +5829,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -5862,6 +5902,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &396488366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396488361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &407392545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5956,7 +6008,7 @@ GameObject:
   - component: {fileID: 416448517}
   - component: {fileID: 416448520}
   - component: {fileID: 416448519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9642,7 +9694,7 @@ GameObject:
   - component: {fileID: 725763290}
   - component: {fileID: 725763293}
   - component: {fileID: 725763292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12628,7 +12680,7 @@ GameObject:
   - component: {fileID: 876482959}
   - component: {fileID: 876482962}
   - component: {fileID: 876482961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15500,6 +15552,7 @@ GameObject:
   - component: {fileID: 1068811106}
   - component: {fileID: 1068811105}
   - component: {fileID: 1068811104}
+  - component: {fileID: 1068811108}
   m_Layer: 0
   m_Name: thought placeholder (9)
   m_TagString: Untagged
@@ -15536,9 +15589,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -15609,6 +15662,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1068811108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068811103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1080350339
 GameObject:
   m_ObjectHideFlags: 0
@@ -17889,7 +17954,7 @@ GameObject:
   - component: {fileID: 1242922096}
   - component: {fileID: 1242922099}
   - component: {fileID: 1242922098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19135,6 +19200,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: 0
   pointsText: {fileID: 983371019}
+  softLullaby: {fileID: 340066624}
+  babyCoos: {fileID: 1562731946}
+  distortedLullaby: {fileID: 1723933091}
 --- !u!1 &1330932231
 GameObject:
   m_ObjectHideFlags: 0
@@ -19773,7 +19841,7 @@ GameObject:
   - component: {fileID: 1417508154}
   - component: {fileID: 1417508153}
   - component: {fileID: 1417508152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20313,6 +20381,7 @@ GameObject:
   - component: {fileID: 1443985591}
   - component: {fileID: 1443985590}
   - component: {fileID: 1443985589}
+  - component: {fileID: 1443985593}
   m_Layer: 0
   m_Name: thought placeholder (7)
   m_TagString: Untagged
@@ -20349,9 +20418,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -20422,6 +20491,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443985593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443985588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1450324477
 GameObject:
   m_ObjectHideFlags: 0
@@ -21167,7 +21248,7 @@ GameObject:
   - component: {fileID: 1500057920}
   - component: {fileID: 1500057923}
   - component: {fileID: 1500057922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23477,6 +23558,7 @@ GameObject:
   - component: {fileID: 1598151399}
   - component: {fileID: 1598151398}
   - component: {fileID: 1598151397}
+  - component: {fileID: 1598151401}
   m_Layer: 0
   m_Name: thought placeholder (6)
   m_TagString: Untagged
@@ -23513,9 +23595,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -23586,6 +23668,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598151401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598151396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1602585473
 GameObject:
   m_ObjectHideFlags: 0
@@ -24181,7 +24275,7 @@ GameObject:
   - component: {fileID: 1647538893}
   - component: {fileID: 1647538892}
   - component: {fileID: 1647538891}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24946,7 +25040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1723933091
 AudioSource:
   m_ObjectHideFlags: 0
@@ -29191,6 +29285,7 @@ GameObject:
   - component: {fileID: 2050431594}
   - component: {fileID: 2050431593}
   - component: {fileID: 2050431592}
+  - component: {fileID: 2050431596}
   m_Layer: 0
   m_Name: thought placeholder (5)
   m_TagString: Untagged
@@ -29227,9 +29322,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -29300,6 +29395,18 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050431596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050431591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2059307567
 GameObject:
   m_ObjectHideFlags: 0
@@ -29312,6 +29419,7 @@ GameObject:
   - component: {fileID: 2059307569}
   - component: {fileID: 2059307568}
   - component: {fileID: 2059307571}
+  - component: {fileID: 2059307572}
   m_Layer: 0
   m_Name: thought placeholder
   m_TagString: Untagged
@@ -29332,9 +29440,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -29421,6 +29529,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9
+--- !u!114 &2059307572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059307567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2060398581
 GameObject:
   m_ObjectHideFlags: 0
@@ -30028,7 +30148,7 @@ GameObject:
   - component: {fileID: 2085535626}
   - component: {fileID: 2085535629}
   - component: {fileID: 2085535628}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bounce obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30806,6 +30926,7 @@ GameObject:
   - component: {fileID: 2115166876}
   - component: {fileID: 2115166875}
   - component: {fileID: 2115166874}
+  - component: {fileID: 2115166878}
   m_Layer: 0
   m_Name: thought placeholder (2)
   m_TagString: Untagged
@@ -30842,9 +30963,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 0.5
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.05
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: b811038ac167242958462f25d7633432, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -30915,3 +31036,15 @@ Transform:
   m_Father: {fileID: 2090386778}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115166878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115166873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690b04872e9c64bc79a71659f3b13ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
