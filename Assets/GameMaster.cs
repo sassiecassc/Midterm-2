@@ -13,14 +13,11 @@ public class GameMaster : MonoBehaviour
     public AudioSource softLullaby;
     public AudioSource babyCoos;
     public AudioSource distortedLullaby;
+    public AudioSource stateSwitchSound;
 
     private void Start()
     {
-        /*
-        softLullaby = GetComponent<AudioSource>();
-        babyCoos = GetComponent<AudioSource>();
-        distortedLullaby = GetComponent<AudioSource>();
-        */
+     
 
         softLullaby.Play();
         babyCoos.Play();
@@ -53,8 +50,18 @@ public class GameMaster : MonoBehaviour
 
     private void Update()
     {
-        if(points == 1)
+        if (stateSwitchSound.isPlaying == false)
+        {
+            if (points == 2)
             {
+
+                stateSwitchSound.Play();
+            }
+        }
+         
+
+        if((GameObject.Find("-player").GetComponent<playermovement>().teleportimer) == 0)
+        {
                 softLullaby.Stop();
                 babyCoos.Stop();
 

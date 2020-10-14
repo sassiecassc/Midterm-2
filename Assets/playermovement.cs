@@ -34,7 +34,7 @@ public class playermovement : MonoBehaviour
 
         
         //if player finished first level 
-        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 1)
+        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 2)
         {
             //timer goes off
             //new music maybe?
