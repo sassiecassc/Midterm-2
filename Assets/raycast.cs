@@ -6,7 +6,7 @@ public class raycast : MonoBehaviour
 {
 
     public float enemyDetectDist = 0.5f;
-    public float enemySpeed = 4f;
+    public float enemySpeed = 7f;
 
 
 
