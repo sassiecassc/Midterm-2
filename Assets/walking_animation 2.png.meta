@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 162d5e9a52f42400ab3482c2620d8577
+guid: 513b4d2a0fe4a44cb80fae516d5f9bb0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2858138929005644686
-    second: player_animation_0
+      213: 8876469153063517460
+    second: walking_animation 2_0
   - first:
-      213: -2027423421355403931
-    second: player_animation_1
+      213: 5096285873228598597
+    second: walking_animation 2_1
   - first:
-      213: -4428325168554114149
-    second: player_animation_2
+      213: 6646287498844716902
+    second: walking_animation 2_2
   - first:
-      213: -1844345104009512776
-    second: player_animation_3
+      213: -4986803077756758081
+    second: walking_animation 2_3
   - first:
-      213: 1764488350933366207
-    second: player_animation_4
+      213: -5662779787037872554
+    second: walking_animation 2_4
   - first:
-      213: -4317523611598706774
-    second: player_animation_5
+      213: 4494548515021787769
+    second: walking_animation 2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_animation_0
+      name: walking_animation 2_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 775
-        width: 312
-        height: 241
+        x: 163
+        y: 1326
+        width: 824
+        height: 635
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27437e189c9d558d0800000000000000
-      internalID: -2858138929005644686
+      spriteID: 41d30184aad8f2b70800000000000000
+      internalID: 8876469153063517460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_1
+      name: walking_animation 2_1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 772
-        width: 312
-        height: 253
+        x: 1207
+        y: 1310
+        width: 826
+        height: 666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565ddc8d3252dd3e0800000000000000
-      internalID: -2027423421355403931
+      spriteID: 54dc1ab1005a9b640800000000000000
+      internalID: 5096285873228598597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_2
+      name: walking_animation 2_2
       rect:
         serializedVersion: 2
-        x: 749
-        y: 750
-        width: 309
-        height: 283
+        x: 2251
+        y: 1269
+        width: 817
+        height: 749
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b930962b8bd6b82c0800000000000000
-      internalID: -4428325168554114149
+      spriteID: 66f32c3444b5c3c50800000000000000
+      internalID: 6646287498844716902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_3
+      name: walking_animation 2_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 303
-        width: 310
-        height: 291
+        x: 185
+        y: 288
+        width: 818
+        height: 769
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b8384056e19766e0800000000000000
-      internalID: -1844345104009512776
+      spriteID: fb7db71a5015bcab0800000000000000
+      internalID: -4986803077756758081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_4
+      name: walking_animation 2_4
       rect:
         serializedVersion: 2
-        x: 382
-        y: 311
-        width: 309
-        height: 284
+        x: 1212
+        y: 297
+        width: 816
+        height: 749
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb5b2b77ec8bc7810800000000000000
-      internalID: 1764488350933366207
+      spriteID: 65e685059c3c961b0800000000000000
+      internalID: -5662779787037872554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_5
+      name: walking_animation 2_5
       rect:
         serializedVersion: 2
-        x: 746
-        y: 326
-        width: 312
-        height: 252
+        x: 2335
+        y: 339
+        width: 826
+        height: 666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,8 +238,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa72c4586231514c0800000000000000
-      internalID: -4317523611598706774
+      spriteID: 97212afaf08df5e30800000000000000
+      internalID: 4494548515021787769
       vertices: []
       indices: 
       edges: []

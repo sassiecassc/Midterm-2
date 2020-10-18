@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class inGreenTrigger : MonoBehaviour
 {
     AudioSource correctstuffyinTrigger;
     bool greentrigger;
+
+    public int dreampoints;
+    public Text DreamPointsText;
 
     private void Start()
     {
@@ -39,7 +43,11 @@ public class inGreenTrigger : MonoBehaviour
         if (greentrigger == true && Input.GetKeyDown(KeyCode.Q))
         {
             correctstuffyinTrigger.Play();
+
+            dreampoints++;
+            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
         }
+
     }
 
 

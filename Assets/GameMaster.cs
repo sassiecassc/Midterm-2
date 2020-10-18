@@ -33,7 +33,7 @@ public class GameMaster : MonoBehaviour
             points++;
             pointsText.text = ("stuffies: " + points.ToString());
 
-            Debug.Log("in trigger");
+           
         }
     }
 
@@ -44,7 +44,7 @@ public class GameMaster : MonoBehaviour
             points--;
             pointsText.text = ("stuffies: " + points.ToString());
 
-            Debug.Log("in trigger");
+           
         }
     }
 
@@ -52,7 +52,7 @@ public class GameMaster : MonoBehaviour
     {
         if (stateSwitchSound.isPlaying == false)
         {
-            if (points == 2)
+            if (points == 1)
             {
 
                 stateSwitchSound.Play();

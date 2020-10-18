@@ -17,7 +17,7 @@ public class playermovement : MonoBehaviour
     public bool timeIsRunning = false;
     public bool teleported = false;
 
-    
+    public Animator thisAnimator;
 
     private void Start()
     {
@@ -30,11 +30,31 @@ public class playermovement : MonoBehaviour
 
     void Update()
     {
-       
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            thisAnimator.SetBool("player_is_moving", true);
 
-        
+        }
+        /*
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            thisAnimator.SetBool("player_is_moving");
+
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            thisAnimator.SetBool("player_is_moving");
+
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            thisAnimator.SetBool("player_is_moving");
+
+        }
+        */
+
         //if player finished first level 
-        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 2)
+        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 1)
         {
             //timer goes off
             //new music maybe?
@@ -61,9 +81,6 @@ public class playermovement : MonoBehaviour
                 thisRigidbody2D.position = mazeEntrance.transform.position;
                 teleported = true;
 
-                
-              
-
             }
 
         }
@@ -75,10 +92,14 @@ public class playermovement : MonoBehaviour
     private void FixedUpdate()
     {
         //move code
+       
         moveDirection.x = Input.GetAxisRaw("Horizontal");
         moveDirection.y = Input.GetAxisRaw("Vertical");
-
+        
         thisRigidbody2D.MovePosition(thisRigidbody2D.position + moveDirection * speed * Time.deltaTime);
+
+   
+
     }
 
 }

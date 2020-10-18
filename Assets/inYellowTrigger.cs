@@ -9,6 +9,10 @@ public class inYellowTrigger : MonoBehaviour
     AudioSource correctstuffyinTrigger;
     bool yellowtrigger;
 
+
+    public int dreampoints;
+    public Text DreamPointsText;
+
     private void Start()
     {
         correctstuffyinTrigger = GetComponent<AudioSource>();
@@ -41,6 +45,9 @@ public class inYellowTrigger : MonoBehaviour
         if (yellowtrigger == true && Input.GetKeyDown(KeyCode.Q))
         {
             correctstuffyinTrigger.Play();
+
+            dreampoints++;
+            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
         }
     }
 

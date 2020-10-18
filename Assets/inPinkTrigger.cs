@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class inPinkTrigger : MonoBehaviour
 {
     AudioSource correctstuffyinTrigger;
     bool pinktrigger;
+
+    public int dreampoints;
+    public Text DreamPointsText;
 
     private void Start()
     {
@@ -23,10 +27,10 @@ public class inPinkTrigger : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D chick)
+    private void OnTriggerExit2D(Collider2D kitty)
     {
 
-        if (chick.tag == "dreamchick")
+        if (kitty.tag == "dreamchick")
         {
 
             pinktrigger = false;
@@ -39,6 +43,9 @@ public class inPinkTrigger : MonoBehaviour
         if (pinktrigger == true && Input.GetKeyDown(KeyCode.Q))
         {
             correctstuffyinTrigger.Play();
+
+            dreampoints++;
+            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
         }
     }
 

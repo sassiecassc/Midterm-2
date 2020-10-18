@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class inPurpleTrigger : MonoBehaviour
 {
@@ -8,7 +9,10 @@ public class inPurpleTrigger : MonoBehaviour
 AudioSource correctstuffyinTrigger;
 bool purpletrigger;
 
-private void Start()
+    public int dreampoints;
+    public Text DreamPointsText;
+
+    private void Start()
 {
     correctstuffyinTrigger = GetComponent<AudioSource>();
 }
@@ -60,6 +64,9 @@ private void Update()
     if (purpletrigger == true && Input.GetKeyDown(KeyCode.Q))
     {
         correctstuffyinTrigger.Play();
-    }
+
+            dreampoints++;
+            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
+        }
 }
 }
