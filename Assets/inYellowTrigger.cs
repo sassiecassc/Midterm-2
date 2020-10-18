@@ -10,8 +10,7 @@ public class inYellowTrigger : MonoBehaviour
     bool yellowtrigger;
 
 
-    public int dreampoints;
-    public Text DreamPointsText;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
     {
@@ -46,9 +45,11 @@ public class inYellowTrigger : MonoBehaviour
         {
             correctstuffyinTrigger.Play();
 
-            dreampoints++;
-            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
+            dreamLevelPoints.IncreasePoints();
+
+            yellowtrigger = false;
         }
+        
     }
 
 

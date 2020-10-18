@@ -8,8 +8,7 @@ public class inRedTrigger : MonoBehaviour
     AudioSource correctstuffyinTrigger;
     bool redtrigger;
 
-    public int dreampoints;
-    public Text DreamPointsText;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
     {
@@ -64,9 +63,11 @@ public class inRedTrigger : MonoBehaviour
         {
             correctstuffyinTrigger.Play();
 
-            dreampoints++;
-            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
+            dreamLevelPoints.IncreasePoints();
+
+            redtrigger = false;
         }
+        
     }
 
 

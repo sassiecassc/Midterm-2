@@ -7,8 +7,6 @@ public class playermovement : MonoBehaviour
     public Rigidbody2D thisRigidbody2D;
     public float speed = 7f;
 
-    
-
     Vector2 moveDirection;
 
 
@@ -16,8 +14,12 @@ public class playermovement : MonoBehaviour
     public float teleportimer = 5;
     public bool timeIsRunning = false;
     public bool teleported = false;
+    public bool lv2teleported = false;
 
     public Animator thisAnimator;
+
+    public GameObject level1;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
     {
@@ -30,34 +32,43 @@ public class playermovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+
+        //change to walk animation
+        if (Input.GetKey(KeyCode.W))
+        {
+            thisAnimator.SetBool("player_is_moving", true);
+
+        } 
+        
+        if (Input.GetKey(KeyCode.A))
         {
             thisAnimator.SetBool("player_is_moving", true);
 
         }
-        /*
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.S))
         {
-            thisAnimator.SetBool("player_is_moving");
+            thisAnimator.SetBool("player_is_moving", true);
 
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.D))
         {
-            thisAnimator.SetBool("player_is_moving");
+            thisAnimator.SetBool("player_is_moving", true);
 
         }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            thisAnimator.SetBool("player_is_moving");
 
+        //if none of the keys are pressed, idle animation
+        if(!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
+        {
+
+            thisAnimator.SetBool("player_is_moving", false);
         }
-        */
+       
 
         //if player finished first level 
         if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 1)
         {
             //timer goes off
-            //new music maybe?
+            //new music 
            
 
             if (teleportimer > 0)
@@ -84,8 +95,16 @@ public class playermovement : MonoBehaviour
             }
 
         }
-     
+
+        //teleport to win screen??
+        if (dreamLevelPoints.dreampoints == 2)
+        {
             
+            thisRigidbody2D.position = new Vector3(-225.79f, 8.5f, 0f);
+
+            thisRigidbody2D.position = level1.transform.position;
+            lv2teleported = true;
+        }   
     }
 
     //move code

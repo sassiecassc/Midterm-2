@@ -9,12 +9,12 @@ public class inBlueTrigger : MonoBehaviour
     AudioSource correctstuffyinTrigger;
     bool blutrigger;
 
-    public int dreampoints;
-    public Text DreamPointsText;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
     {
         correctstuffyinTrigger = GetComponent<AudioSource>();
+       
     }
 
     private void OnTriggerEnter2D(Collider2D pig)
@@ -46,9 +46,13 @@ public class inBlueTrigger : MonoBehaviour
             {
                 correctstuffyinTrigger.Play();
 
-            dreampoints++;
-            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
+
+            dreamLevelPoints.IncreasePoints();
+
+            blutrigger = false;
         }
+        
+        
     }
 
 

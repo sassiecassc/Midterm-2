@@ -8,12 +8,13 @@ public class inGreenTrigger : MonoBehaviour
     AudioSource correctstuffyinTrigger;
     bool greentrigger;
 
-    public int dreampoints;
-    public Text DreamPointsText;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
     {
         correctstuffyinTrigger = GetComponent<AudioSource>();
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D kitty)
@@ -44,10 +45,11 @@ public class inGreenTrigger : MonoBehaviour
         {
             correctstuffyinTrigger.Play();
 
-            dreampoints++;
-            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
-        }
+            dreamLevelPoints.IncreasePoints();
 
+            greentrigger = false;
+        }
+        
     }
 
 

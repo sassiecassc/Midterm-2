@@ -9,8 +9,7 @@ public class inPurpleTrigger : MonoBehaviour
 AudioSource correctstuffyinTrigger;
 bool purpletrigger;
 
-    public int dreampoints;
-    public Text DreamPointsText;
+    public dreamLevelPoints dreamLevelPoints;
 
     private void Start()
 {
@@ -65,8 +64,11 @@ private void Update()
     {
         correctstuffyinTrigger.Play();
 
-            dreampoints++;
-            DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
+            dreamLevelPoints.IncreasePoints();
+
+            purpletrigger = false;
         }
-}
+        
+
+    }
 }
