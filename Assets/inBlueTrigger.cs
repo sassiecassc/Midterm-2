@@ -1,38 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class inBlueTrigger : MonoBehaviour
 {
 
-    public int dreampoints = 0;
+    AudioSource correctstuffyinTrigger;
+    bool blutrigger;
 
-    public Text pointsDreamText;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        correctstuffyinTrigger = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D pig)
     {
-        if(pig.tag == "dreampig")
-        {
+        
+        if (pig.tag == "dreampig")
+            {
 
-            dreampoints++;
-            pointsDreamText.text = ("dream stuffies: " + dreampoints.ToString());
-        }
+            blutrigger = true;
+               
+            }
     }
 
     private void OnTriggerExit2D(Collider2D pig)
     {
+
         if (pig.tag == "dreampig")
         {
 
-            dreampoints--;
-            pointsDreamText.text = ("dream stuffies: " + dreampoints.ToString());
+            blutrigger = false;
+
         }
     }
+
+    private void Update()
+    {
+        if(blutrigger == true && Input.GetKeyDown(KeyCode.Q))
+            {
+                correctstuffyinTrigger.Play();
+            }
+    }
+
+
+
+
 }
