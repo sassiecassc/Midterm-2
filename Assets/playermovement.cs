@@ -18,8 +18,11 @@ public class playermovement : MonoBehaviour
 
     public Animator thisAnimator;
 
-    public GameObject level1;
+    public GameObject winscreen;
     public dreamLevelPoints dreamLevelPoints;
+
+
+   
 
     private void Start()
     {
@@ -96,14 +99,18 @@ public class playermovement : MonoBehaviour
 
         }
 
-        //teleport to win screen??
-        if (dreamLevelPoints.dreampoints == 2)
+        //teleport to win screen
+        if (dreamLevelPoints.dreampoints == 1)
         {
             
-            thisRigidbody2D.position = new Vector3(-225.79f, 8.5f, 0f);
+            thisRigidbody2D.position = new Vector3(-49.96f, -9.92f, 0f);
 
-            thisRigidbody2D.position = level1.transform.position;
+            thisRigidbody2D.position = winscreen.transform.position;
             lv2teleported = true;
+
+            
+            
+
         }   
     }
 

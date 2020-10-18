@@ -15,6 +15,8 @@ public class GameMaster : MonoBehaviour
     public AudioSource distortedLullaby;
     public AudioSource stateSwitchSound;
 
+    public AudioSource winLullaby;
+
     private void Start()
     {
      
@@ -64,6 +66,7 @@ public class GameMaster : MonoBehaviour
         {
                 softLullaby.Stop();
                 babyCoos.Stop();
+            stateSwitchSound.Stop();
 
             if(distortedLullaby.isPlaying == false)
             {
@@ -71,8 +74,20 @@ public class GameMaster : MonoBehaviour
                 distortedLullaby.Play();
             }
 
+        }
+
+
+        if ((GameObject.Find("-player").GetComponent<playermovement>().lv2teleported) == true)
+        {
+            distortedLullaby.Stop();
+
+            if(winLullaby.isPlaying == false )
+            {
+
+                winLullaby.Play();
+                
             }
-        
-        
+            
+        }
     }
 }
