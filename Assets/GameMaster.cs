@@ -54,7 +54,7 @@ public class GameMaster : MonoBehaviour
     {
         if (stateSwitchSound.isPlaying == false)
         {
-            if (points == 1)
+            if (points == 8)
             {
 
                 stateSwitchSound.Play();

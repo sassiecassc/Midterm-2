@@ -68,7 +68,7 @@ public class playermovement : MonoBehaviour
        
 
         //if player finished first level 
-        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 1)
+        if ((GameObject.Find("crib").GetComponent<GameMaster>().points) == 8)
         {
             //timer goes off
             //new music 
@@ -100,7 +100,7 @@ public class playermovement : MonoBehaviour
         }
 
         //teleport to win screen
-        if (dreamLevelPoints.dreampoints == 1)
+        if (dreamLevelPoints.dreampoints == 8)
         {
             
             thisRigidbody2D.position = new Vector3(-49.96f, -9.92f, 0f);
