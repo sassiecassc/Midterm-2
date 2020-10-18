@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 53507721}
   - component: {fileID: 53507720}
   - component: {fileID: 53507719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0001s_0003_chair3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1792,6 +1792,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1186494160}
+  - {fileID: 1632865354}
+  - {fileID: 826470515}
   - {fileID: 1876672543}
   - {fileID: 2049257622}
   - {fileID: 1639522494}
@@ -1880,7 +1882,7 @@ Transform:
   m_LocalScale: {x: 1.1874117, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &145409189
 GameObject:
@@ -2041,7 +2043,7 @@ GameObject:
   - component: {fileID: 150065180}
   - component: {fileID: 150065179}
   - component: {fileID: 150065178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0004s_0003_drawer-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2687,7 +2689,7 @@ GameObject:
   - component: {fileID: 197631271}
   - component: {fileID: 197631274}
   - component: {fileID: 197631273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 wolf obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2824,7 +2826,7 @@ GameObject:
   - component: {fileID: 216905175}
   - component: {fileID: 216905174}
   - component: {fileID: 216905172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 fox object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4119,7 +4121,7 @@ Transform:
   - {fileID: 2003609930}
   - {fileID: 1603400935}
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &305018616
 GameObject:
@@ -4380,7 +4382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307127749}
   - component: {fileID: 307127748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0001s_0006_island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5191,7 +5193,7 @@ GameObject:
   - component: {fileID: 367507068}
   - component: {fileID: 367507067}
   - component: {fileID: 367507066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0002s_0007_From-selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5848,7 +5850,7 @@ GameObject:
   - component: {fileID: 407392546}
   - component: {fileID: 407392549}
   - component: {fileID: 407392548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0001s_0004_chair2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6351,7 +6353,7 @@ GameObject:
   - component: {fileID: 428231469}
   - component: {fileID: 428231468}
   - component: {fileID: 428231467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0002s_0001_fireplace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10013,7 +10015,7 @@ GameObject:
   - component: {fileID: 759034437}
   - component: {fileID: 759034436}
   - component: {fileID: 759034435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0001s_0007_stove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10468,7 +10470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 767300063}
   - component: {fileID: 767300062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0002s_0005_Layer-54
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11170,12 +11172,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826470512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -154.8, y: 7.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -117.03, y: 8.33, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_Father: {fileID: 78686333}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &842521754
 GameObject:
@@ -13093,7 +13095,7 @@ Transform:
   - {fileID: 2112395363}
   - {fileID: 1059187078}
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871427702
 GameObject:
@@ -13269,7 +13271,7 @@ GameObject:
   - component: {fileID: 876041038}
   - component: {fileID: 876041037}
   - component: {fileID: 876041036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0006s_0013_drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14148,7 +14150,7 @@ GameObject:
   - component: {fileID: 880581808}
   - component: {fileID: 880581807}
   - component: {fileID: 880581806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 pig object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16546,7 +16548,7 @@ GameObject:
   - component: {fileID: 890472024}
   - component: {fileID: 890472023}
   - component: {fileID: 890472022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0002s_0004_bar-cart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18589,7 +18591,7 @@ GameObject:
   - component: {fileID: 1123786112}
   - component: {fileID: 1123786111}
   - component: {fileID: 1123786114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0005s_0006_nightstand-down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19081,7 +19083,7 @@ GameObject:
   - component: {fileID: 1157425039}
   - component: {fileID: 1157425038}
   - component: {fileID: 1157425037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0002s_0012_dining-table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20056,7 +20058,7 @@ GameObject:
   - component: {fileID: 1186371421}
   - component: {fileID: 1186371420}
   - component: {fileID: 1186371423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0005s_0004_closet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20490,7 +20492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186494159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96.78, y: -10.96, z: 0}
+  m_LocalPosition: {x: -92.3, y: -2.3, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
@@ -22082,7 +22084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297669417}
   - component: {fileID: 1297669416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 kitty object
   m_TagString: dreamkitty
   m_Icon: {fileID: 0}
@@ -22179,13 +22181,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321833429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -108.2, y: 6.88, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -74.8, y: -14.2, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1321833431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22627,7 +22629,7 @@ GameObject:
   - component: {fileID: 1378363432}
   - component: {fileID: 1378363431}
   - component: {fileID: 1378363430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0006s_0005_toychair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23818,7 +23820,7 @@ GameObject:
   - component: {fileID: 1465754116}
   - component: {fileID: 1465754115}
   - component: {fileID: 1465754114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 chick object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26358,7 +26360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495341847}
   - component: {fileID: 1495341846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 squirrel object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27097,7 +27099,7 @@ GameObject:
   - component: {fileID: 1505353400}
   - component: {fileID: 1505353399}
   - component: {fileID: 1505353398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0003s_0004_living-table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28116,7 +28118,7 @@ GameObject:
   - component: {fileID: 1603862167}
   - component: {fileID: 1603862166}
   - component: {fileID: 1603862165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0003s_0005_tv
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28854,12 +28856,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632865351}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -124.9, y: -0.8, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -87.130005, y: 0.030000031, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_Father: {fileID: 78686333}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1639522493
 GameObject:
@@ -28886,13 +28888,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639522493}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -104.28, y: -28.64, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -96.6, y: 18.7, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &1639522495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28968,7 +28970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640810930}
   - component: {fileID: 1640810929}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0004s_0002_From-selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29343,7 +29345,7 @@ GameObject:
   - component: {fileID: 1658284067}
   - component: {fileID: 1658284066}
   - component: {fileID: 1658284069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0005s_0000_Layer-58
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29767,7 +29769,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661178431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -130.8, y: -9.57, z: 0}
+  m_LocalPosition: {x: -133, y: -10, z: 0}
   m_LocalScale: {x: 24.927362, y: 9.383421, z: 9.383421}
   m_Children: []
   m_Father: {fileID: 0}
@@ -30620,7 +30622,7 @@ GameObject:
   - component: {fileID: 1839173344}
   - component: {fileID: 1839173343}
   - component: {fileID: 1839173346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 puppy object
   m_TagString: bluetrigger
   m_Icon: {fileID: 0}
@@ -32481,7 +32483,7 @@ Transform:
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1876672544
 MonoBehaviour:
@@ -32573,13 +32575,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887861245}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -77.28, y: 14.65, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -70.6, y: 7.2, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &1887861247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32658,7 +32660,7 @@ GameObject:
   - component: {fileID: 1888958968}
   - component: {fileID: 1888958967}
   - component: {fileID: 1888958966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0004s_0004_drawer-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34935,7 +34937,7 @@ GameObject:
   - component: {fileID: 2014806413}
   - component: {fileID: 2014806414}
   - component: {fileID: 2014806416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lv 2 bunny object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36967,13 +36969,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049257621}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -100.31, y: -18.08, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -101.8, y: -9.4, z: 0}
   m_LocalScale: {x: 0.57651705, y: 0.57651705, z: 0.57651705}
   m_Children: []
   m_Father: {fileID: 78686333}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &2049257623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37466,7 +37468,7 @@ GameObject:
   - component: {fileID: 2060424708}
   - component: {fileID: 2060424707}
   - component: {fileID: 2060424706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: level-2-shapes_0006s_0014_Layer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38233,7 +38235,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085535625
 GameObject:
@@ -41022,5 +41024,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
