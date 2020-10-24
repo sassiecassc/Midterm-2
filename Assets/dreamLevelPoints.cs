@@ -22,6 +22,6 @@ public class dreamLevelPoints : MonoBehaviour
 
         dreampoints++;
         DreamPointsText.text = ("dream stuffies: " + dreampoints.ToString());
-
+        //when we get to 8 points, we warp the player back
     }
 }
